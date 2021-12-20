@@ -1,4 +1,4 @@
-function getDate() {
+function getTodayDate() {
     const today = new Date(); // Mon Dec 20 2021 22:04:03 GMT+0900 (한국 표준시)
 
     const year = today.getFullYear(); // 2021
