@@ -5,6 +5,6 @@
  * @param n 생성할 난수 범위
  */
 
-function randomNumber(n) {
+export function randomNumber(n) {
     return Math.floor(Math.random() * n)
 }
