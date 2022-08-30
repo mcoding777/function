@@ -4,6 +4,6 @@
  */
 
  function randomColor() {
-    const color = `#${Math.round(Math.random() * 0xffffff).toString(16)}`
+    const color = "#" + Math.floor(Math.random() * 16777215).toString(16);
     return color
   }
